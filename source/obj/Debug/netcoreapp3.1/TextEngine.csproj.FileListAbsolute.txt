@@ -1,0 +1,26 @@
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.exe
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.deps.json
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.runtimeconfig.json
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.runtimeconfig.dev.json
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.dll
+C:\Users\HOME\OneDrive\Desktop\full game\bin\Debug\netcoreapp3.1\TextEngine.pdb
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.csprojAssemblyReference.cache
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.AssemblyInfoInputs.cache
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.AssemblyInfo.cs
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.csproj.CoreCompileInputs.cache
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.dll
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.pdb
+C:\Users\HOME\OneDrive\Desktop\full game\obj\Debug\netcoreapp3.1\TextEngine.genruntimeconfig.cache
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.exe
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.deps.json
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.runtimeconfig.json
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.runtimeconfig.dev.json
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.dll
+C:\Users\HOME\OneDrive\Desktop\TextEngine\bin\Debug\netcoreapp3.1\TextEngine.pdb
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.csprojAssemblyReference.cache
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.AssemblyInfoInputs.cache
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.AssemblyInfo.cs
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.csproj.CoreCompileInputs.cache
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.dll
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.pdb
+C:\Users\HOME\OneDrive\Desktop\TextEngine\obj\Debug\netcoreapp3.1\TextEngine.genruntimeconfig.cache
