@@ -1,4 +1,5 @@
 ﻿// TextEngine is written by BigmancozmoPlayz
+// v1.0.0
 
 using System;
 using System.IO;
@@ -85,10 +86,16 @@ namespace full_game
                     Console.WriteLine("Project Name: ");
                     string projname = Console.ReadLine();
                     string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                    Console.WriteLine("Creating project...");
                     Directory.CreateDirectory(path + "/" + projname);
                     prg.addFolder("/Assets/Scenes", path, projname);
+                    prg.addFolder("/Extra", path, projname);
                     prg.addFolder("/Assets/Scripts", path, projname);
-                    prg.addFile("accessible.txt", path, projname);
+                    prg.addFolder("/Assets/Audio", path, projname);
+                    prg.addFile("/Extra/accessible.txt", path, projname);
+
+                        File.WriteAllTextAsync(path + "/" + projname + "/Extra/version.txt","1.0.0");
+                    Console.WriteLine("Project creation finished!");
                     Console.WriteLine("WARNING!!!");
                     Console.WriteLine("KEEP this file on the desktop if you want it to be accessable by the program.");
                     Console.WriteLine("Re-open the application to open your project");
