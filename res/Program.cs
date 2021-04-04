@@ -11,12 +11,11 @@ namespace full_game
         public void restart()
         {
             Console.Clear();
-            var prg = new Program();
             Console.WriteLine("Welcome to TextEngine");
             Console.WriteLine("What do you want to do?");
             Console.WriteLine("Create, Open, or Exit: ");
             string task = Console.ReadLine();
-            prg.computePrompt(task);
+            computePrompt(task);
         }
         public void waitForKeyPress()
         {
@@ -59,10 +58,10 @@ namespace full_game
             {
                 Console.WriteLine("Project '" + projname + "' does not exist.");
             }
-            var prg = new Program();
-            prg.waitForKeyPress();
-            prg.restart();
+            waitForKeyPress();
+            restart();
         }
+
         public void addFile(string name, string path, string projname)
         {
             File.Create(path + "/" + projname + "/" + name);
@@ -73,11 +72,10 @@ namespace full_game
         }
         public void computePrompt(string p)
         {
-            var prg = new Program();
             // Run task
             if (p == "open")
             {
-                prg.validateProjectBeforeOpen();
+                validateProjectBeforeOpen();
             }
             else
             {
@@ -87,20 +85,20 @@ namespace full_game
                     string projname = Console.ReadLine();
                     string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                     Console.WriteLine("Creating project...");
-                    Directory.CreateDirectory(path + "/" + projname);
-                    prg.addFolder("/Assets/Scenes", path, projname);
-                    prg.addFolder("/Extra", path, projname);
-                    prg.addFolder("/Assets/Scripts", path, projname);
-                    prg.addFolder("/Assets/Audio", path, projname);
-                    prg.addFile("/Extra/accessible.txt", path, projname);
+                    Directory.CreateDirectory(path + "/" + projname); // Add main folder
+                    addFolder("/Assets/Scenes", path, projname);
+                    addFolder("/Extra", path, projname);
+                    addFolder("/Assets/Scripts", path, projname);
+                    addFolder("/Assets/Audio", path, projname);
+                    addFile("/Extra/accessible.txt", path, projname);
 
-                        File.WriteAllTextAsync(path + "/" + projname + "/Extra/version.txt","1.0.0");
+                    File.WriteAllTextAsync(path + "/" + projname + "/Extra/version.txt","1.0.0");
                     Console.WriteLine("Project creation finished!");
                     Console.WriteLine("WARNING!!!");
                     Console.WriteLine("KEEP this file on the desktop if you want it to be accessable by the program.");
                     Console.WriteLine("Re-open the application to open your project");
-                    prg.waitForKeyPress();
-                    prg.restart();
+                    waitForKeyPress();
+                    restart();
                 }
                 else
                 {
@@ -111,8 +109,8 @@ namespace full_game
                     else
                     {
                         Console.WriteLine("'" + p + "' is not a valid command. If you did type a valid command, make sure it has no capital letters.");
-                        prg.waitForKeyPress();
-                        prg.restart();
+                        waitForKeyPress();
+                        restart();
                     }
                 }
             }
