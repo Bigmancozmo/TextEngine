@@ -1,4 +1,5 @@
-﻿// TextEngine is written by BigmancozmoPlayz
+// TextEngine is written by BigmancozmoPlayz
+// Some tweaks to enhance experience for Mac users.
 // v1.0.0
 
 using System;
@@ -90,7 +91,7 @@ namespace full_game
                     addFolder("/Extra", path, projname);
                     addFolder("/Assets/Scripts", path, projname);
                     addFolder("/Assets/Audio", path, projname);
-                    addFile("/Extra/accessible.txt", path, projname);
+                    addFile("/accessible.txt", path, projname);
 
                     File.WriteAllTextAsync(path + "/" + projname + "/Extra/version.txt", "1.0.0");
                     Console.WriteLine("Project creation finished!");
@@ -104,7 +105,9 @@ namespace full_game
                 {
                     if (p == "exit")
                     {
-                        System.Environment.Exit(0);
+                        Console.Clear();
+                        Console.WriteLine("TextEngine closed.");
+                        Environment.Exit(0);
                     }
                     else
                     {
