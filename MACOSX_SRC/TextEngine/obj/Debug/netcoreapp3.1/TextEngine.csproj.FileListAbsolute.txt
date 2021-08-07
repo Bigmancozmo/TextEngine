@@ -1,0 +1,12 @@
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/bin/Debug/netcoreapp3.1/TextEngine.deps.json
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/bin/Debug/netcoreapp3.1/TextEngine.runtimeconfig.json
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/bin/Debug/netcoreapp3.1/TextEngine.runtimeconfig.dev.json
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/bin/Debug/netcoreapp3.1/TextEngine.dll
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/bin/Debug/netcoreapp3.1/TextEngine.pdb
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.csproj.AssemblyReference.cache
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.AssemblyInfoInputs.cache
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.AssemblyInfo.cs
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.csproj.CoreCompileInputs.cache
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.dll
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.pdb
+/Users/jasonmcneil/Projects/TextEngine/TextEngine/obj/Debug/netcoreapp3.1/TextEngine.genruntimeconfig.cache
